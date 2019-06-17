@@ -1,5 +1,4 @@
 import React from 'react';
-import articles from '../pages/article-content';
 
 const UpvotesSection = ({ articleName, upvotes, setArticleInfo }) => {
   const upvoteArticle = async () => {
